@@ -1,0 +1,20 @@
+<template>
+  <lightning-button variant="base" label="Back To Community Selection" onclick={handleBackClick} icon-name="utility:back" class="slds-m-left_x-small"></lightning-button>
+
+    <div class="slds-tabs_vertical">
+      
+        <lightning-tabset variant="vertical" onactive={handleTabChange}>
+          
+          <lightning-tab label="User List" value="userlist">
+            <c-user-list></c-user-list>
+          </lightning-tab>
+          <lightning-tab label="Connection History" value="connectionhistory">
+            <p>Content for Tab 2</p>
+          </lightning-tab>
+          <lightning-tab label="Dashboard" value="dashboard">
+            <p>Content for Tab 3</p>
+          </lightning-tab>
+        </lightning-tabset>
+        
+      </div>
+</template>

@@ -1,0 +1,8 @@
+[
+    {
+        "sobject": "Network",
+        "saveRefs": false,
+        "resolveRefs": true,
+        "files": ["Communities__cs.json"]
+    }
+]

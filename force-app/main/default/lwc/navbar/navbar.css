@@ -1,0 +1,52 @@
+
+.slds-brand__logo {
+    height: 64px;
+    width: 64px;
+}
+
+.slds-navbar_horizontal {
+    background-color: #f3f4f6;
+    border-bottom: 1px solid #d8dde6;
+    height: 56px;
+    padding: 0 1rem;
+}
+
+.slds-grid {
+    height: 100%;
+}
+
+.slds-col.slds-align-top {
+    margin-left: 1rem;
+    margin-right: auto;
+}
+
+.slds-col_bump-left {
+    margin-left: auto;
+}
+
+.slds-navbar__nav {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.slds-nav-item {
+    margin-right: 1rem;
+}
+
+.slds-nav-item:last-child {
+    margin-right: 0;
+}
+
+.slds-nav-item a {
+    color: #16325c;
+    font-size: 1rem;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.slds-nav-item--active a {
+    font-weight: 700;
+}

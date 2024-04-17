@@ -1,0 +1,35 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "Network",
+                "referenceId": "NetworkRef1"
+            },
+            "Name": "Community Example 1",
+            "CreatedById": "0058e000000ZFHu",
+            "Description": "Community Example 1 Description"
+            
+        },
+        {
+            "attributes": {
+                "type": "Network",
+                "referenceId": "NetworkRef2"
+            },
+            "Name": "Community Example 2",
+            "CreatedById": "0058e000000ZFHu",
+            "Description": "Community Example 2 Description"
+            
+        },
+        {
+            "attributes": {
+                "type": "Network",
+                "referenceId": "NetworkRef3"
+            },
+            "Name": "Community Example 3",
+            "CreatedById": "0058e000000ZFHu",
+            "Description": "Community Example 3 Description"
+        
+        }
+        
+    ]
+}

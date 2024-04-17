@@ -1,0 +1,12 @@
+.slds-tabs_vertical {
+    display: flex;
+  }
+  
+  .slds-tabs_vertical .slds-tabs_default__nav {
+    flex: 0 0 auto;
+    width: 150px;
+  }
+  
+  .slds-tabs_vertical .slds-tabs_default__content {
+    flex: 1 1 auto;
+  }

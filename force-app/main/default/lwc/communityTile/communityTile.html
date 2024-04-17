@@ -1,0 +1,24 @@
+<template>
+    <lightning-card  title={community.Name} class="bear-tile">
+        <div slot="actions">
+            <lightning-button variant="brand" label="Access" title="Access Community" onclick={handleOpenRecordClick} class="slds-m-left_x-small"></lightning-button>
+        </div>
+        <div class="slds-var-p-horizontal_small ">
+            <div class="slds-media">
+                <div class="slds-media__figure">
+                    <img src={appResources.communityLogo} alt="Community profile" class="bear-silhouette"/>
+                    <!-- <lightning-avatar src={appResources.communityLogo} initials="" fallback-icon-name="custom:custom92"  alternative-text="Wilson Enterprises" class="slds-m-right_small"></lightning-avatar> -->
+                </div>
+                <div class="slds-media__body">
+                    
+                    <p class="slds-var-m-bottom_xx-small">Description : {community.Description} </p>
+                    <p class="slds-var-m-bottom_xx-small">Creation Date : {community.CreatedDate} </p>
+                    <p class="slds-var-m-bottom_xx-small">Last Activity : {community.LastModifiedDate} </p>
+                    
+                </div>
+                
+            </div>
+        </div>
+    </lightning-card>
+    
+</template>

@@ -1,0 +1,49 @@
+<template>
+    <nav class="slds-navbar slds-navbar_horizontal">
+        <div class="slds-grid">
+            <div class="slds-col slds-align-middle">
+                <a>
+                <img src={appResources.appLogo} onclick={handlelogoclick} class="slds-brand__logo">
+            </a>
+            </div>
+            <div class="slds-col slds-align-middle slds-col_bump-left">
+                
+            </div>
+            <div class="slds-col slds-align-middle slds-col_bump-left">
+                
+            </div>
+            <div class="slds-col slds-align-middle slds-col_bump-left">
+                
+            </div>
+            <div class="slds-col slds-align-middle slds-col_bump-left">
+                <div class="slds-dropdown-trigger slds-dropdown-trigger_click">
+                    <lightning-button-menu icon-name="utility:user" alternative-text="User Menu" onselect={handleMenuItemSelect}>
+                        
+                        <lightning-menu-item value="logout" label="Log Out" if:true={displayuser}></lightning-menu-item>
+                        <lightning-menu-item value="login" label="Log In" if:false={displayuser}></lightning-menu-item>
+                    </lightning-button-menu>
+                    <strong if:true={displayuser}>Welcome {currentUserName}</strong> 
+                    
+                    <!-- Add user menu here -->
+                </div>
+                
+            
+            
+            </div>
+            <div class="slds-col slds-align-middle slds-col_bump-left">
+                <div class="slds-dropdown-trigger slds-dropdown-trigger_click">
+                    
+                    <strong if:true={localStorageCommunityName}>{localStorageCommunityName}</strong> 
+                    
+                    <!-- Add user menu here -->
+                </div>
+                
+            
+            
+            </div>
+            
+            
+        </div>
+    </nav>
+</template>
+
